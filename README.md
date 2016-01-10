@@ -8,8 +8,10 @@ I wrote it because [contacts](http://www.gnufoo.org/contacts/contacts.html) was 
 
 Copy the script in your `~/.mutt` directory and make it executable (`chmod +x ~/.mutt/abquery.sh`). Then, add the following lines in your `~/.mutt/muttrc` (or `~/.muttrc`, if you prefer) configuration file:
 
-   set query_command = "~/.mutt/abquery.sh '%s'"
-   bind editor <Tab> complete-query
+```
+set query_command = "~/.mutt/abquery.sh '%s'"
+bind editor <Tab> complete-query
+```
 
 ## Usage
 
